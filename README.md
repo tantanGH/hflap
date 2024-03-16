@@ -6,14 +6,11 @@ A simple high memory FLAC player for Human68k/X680x0
 
 ## About This
 
-PhantomX 68030モード + ハイメモリ 専用のFLAC音楽プレーヤです。
-Mercury-UNITまたは内蔵ADPCMが利用可能です。
+PhantomX 68030モード + ハイメモリ 専用のFLAC音楽プレーヤです。Mercury-UNITまたは内蔵ADPCMが利用可能です。
 
-44.1kHz/48.0kHz 2ch 16bit/24bit のFLACデータのみ対応しています。
-96kHz以上や3ch以上のデータには対応していません。
+44.1kHz/48.0kHz 2ch 16bit/24bit のFLACデータのみ再生可能です。96kHz以上や3ch以上のデータには対応していません。
 
-曲名、アルバム名、アーティスト名のタグ情報表示に対応しています。
-アルバムアートの表示に対応しています。(ベースラインJPEGのみ)
+曲名、アルバム名、アーティスト名のタグ情報表示に対応しています。アルバムアートの表示も可能です。(ただしベースラインJPEGのみ)
 
 ---
 
