@@ -51,7 +51,7 @@ XEiJ でのみ確認しています。
 
 TS16DRVp.X および PCM8PP.X をあらかじめ常駐させておきます。Mercury-UNITが無い場合は PCM8PP.X の代わりに PCM8A.X を使用してください。
 
-        usage: hflap [options] <input-file.mp3>
+        usage: hflap [options] <input-file.fla>
         options:
              -l[n] ... loop count (none:endless, default:1)
              -v<n> ... volume (1-15, default:6)
@@ -66,7 +66,7 @@ TS16DRVp.X および PCM8PP.X をあらかじめ常駐させておきます。Me
 アルバムアートワークを表示させるには `-t80` など、表示輝度パーセント値を指定して `-t` オプションを使ってください。
 ベースラインJPEGのみ対応しています。プログレッシブJPEGやPNGには対応していません。
 
-WindrvXM/VDISKドライブ以外のSCSIドライブ等からMP3を読み込む場合は `-s` オプションをつけてください。
+WindrvXM/VDISKドライブ以外のSCSIドライブ等からFLACを読み込む場合は `-s` オプションをつけてください。
 TS16FILE.X は WindrvXM + ハイメモリと相性が悪いので使わないようにしてください。
 
 再生中はバッファにデータが展開されるたびに `>` が表示されます。最後まで展開が終わると `|` が表示されます。もし再生データの方が進みが速くバッファを消費してしまった場合は `*` が表示されます。バッファアンダーランが発生した場合はメッセージが表示され、再生が一時停止します。`-n` オプションをつけるとプログレス表示を行いません。
