@@ -8,12 +8,13 @@ A simple high memory FLAC player for Human68k/X680x0
 
 PhantomX 68030モード + ハイメモリ 専用のFLAC音楽プレーヤです。Mercury-UNITまたは内蔵ADPCMが利用可能です。
 
-44.1kHz/48.0kHz 2ch 16bit/24bit のFLACデータのみ再生可能です。
-
 曲名、アルバム名、アーティスト名のタグ情報表示に対応しています。アルバムアートの表示も可能です。(ただしベースラインJPEGのみ)
 
+44.1kHz/48.0kHz 2ch 16bit/24bit のFLACデータのみ再生可能です。88.2kHz/96.0kHzは現状デコードが間に合いませんが、バッファ数を増やすなどすれば最後まで止まらずに再生できる可能性はあります。
 
 MP3の再生には[HMP3P.X](https://github.com/tantanGH/hmp3p/)をご利用ください。
+
+MP3/FLAC両対応のセレクタ[MP3SEL.X](https://github.com/tantanGH/mp3sel/)との併用をお勧めします。
 
 ---
 
