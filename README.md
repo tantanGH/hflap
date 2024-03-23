@@ -97,7 +97,7 @@ Win/Mac/Linuxなどでコマンドラインツール `flac` を使うとファ�
 
 コマンドラインツール `flac` はFLACの本家サイトからダウンロード可能です。
 
-- Windows版[flac-1.4.3-win.zip](https://ftp.osuosl.org/pub/xiph/releases/flac/flac-1.4.3-win.zip)
+- Windows版 [flac-1.4.3-win.zip](https://ftp.osuosl.org/pub/xiph/releases/flac/flac-1.4.3-win.zip)
 
 ---
 
