@@ -95,6 +95,10 @@ Win/Mac/Linuxなどでコマンドラインツール `flac` を使うとファ�
 
 上記は再生が間に合わない96kHz/24bitのデータを間に合う96kHz/24bitのデータに変換する例です。(無圧縮かつFIXEDフレームを使わない)
 
+コマンドラインツール `flac` はFLACの本家サイトからダウンロード可能です。
+
+- Windows版[flac-1.4.3-win.zip](https://ftp.osuosl.org/pub/xiph/releases/flac/flac-1.4.3-win.zip)
+
 ---
 
 ## ライセンス
