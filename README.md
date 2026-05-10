@@ -119,12 +119,12 @@ WindrvXM/VDISK/HFSドライブ以外のSCSIドライブ等からFLACデータを
 
 moraなどのダウンロード販売が利用できます。96kHzなどのデータは再生が厳しい場合がありますのでご注意ください。48kHz/24bitなどであれば特に問題にならないでしょう。
 
-Win/Mac/Linuxなどで `flac`, `ffmpeg`などのソフトを使って既存のデータから変換することも可能です。
+Win/Mac/Linuxなどで `flac`, `ffmpeg`などのソフトを使って既存のデータから変換することも可能です。この際はあまり重くなりすぎない圧縮率にしておくのがポイントです。
 
 アルバムアートを維持しながらApple Losslessでリッピングしたデータをffmpegで変換するコマンドライン例：
 
 ```
-ffmpeg -i hogehoge.m4a -c:a flac -vf "format=yuvj420p" -c:v mjpeg -q:v 2 -f flac hogehoge.fla
+ffmpeg -i hogehoge.m4a -c:a flac -compression_level 0 -lpc_type fixed -block_size 4096 -vf "format=yuvj420p" -c:v mjpeg -q:v 2 -f flac hogehoge.fla
 ```
 
 ---
